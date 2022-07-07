@@ -22,7 +22,7 @@ models:
       - name: name
         tests:   
           - accepted_values:
-              values: ['ASIA','AFRICA','AMERICA']
+              values: ['ASIA','AFRICA','AMERICA','EUROPE','MIDDLE EAST','nothing']
               config:
                 store_failures: true
   - name: stg_orders
