@@ -1,7 +1,7 @@
 version: 2
-
 models:
   - name: stg_nations
+    description: List of all countries
     columns:
       - name: nation_id
         tests:
@@ -26,9 +26,9 @@ models:
               config:
                 store_failures: true
   - name: stg_orders
+    description: Details about the orders placed
     columns:
       - name: order_id
         tests:
           - unique
           - not_null
-      - name: total_price
